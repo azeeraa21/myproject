@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.max-width{
+    max-width: 1300px;
+    padding: 0px 50px;
+    margin: auto;
+}
+
+/* navbar style */
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 20px 0px;
+    background-color: #645CAA;
+    font-family: 'Ubuntu', sans-serif;
+    z-index: 999;
+}
+
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.navbar .logo a span{
+    color: #EBC7E8;
+}
+
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.navbar .menu li a:hover{
+    color: #EBC7E8;
+}
+
+section{
+    padding: 100px;
+}
+/* Picture */
+
+.fam-pic{
+    color: #000000;
+    background: #BFACE0;
+}
+
+.fam-pic .pic-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.fam-pic .pic-content .box{
+    width: calc(50% - 30px);
+    text-align: center;
+    cursor: pointer;
+}
+
+.fam-pic .pic-content .pic img{
+    width: 350px;
+    height: 450px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease;
+    filter: grayscale(1);
+}
+
+.fam-pic .pic-content .pic img:hover{
+    filter: grayscale(0);
+    transform: scale(1.05);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.fam-pic .pic-content .vid video{
+    width: 600px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease;
+    filter: grayscale(1);
+}
+
+.fam-pic .pic-content .vid video:hover{
+    filter: grayscale(0);
+    transform: scale(1.05);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Family Members */
+
+.fam-mem{
+    color: #000000;
+    background: #A084CA;
+}
+
+.fam-mem .members-content ul{
+    list-style: none;
+}
+
+.fam-mem .members-content li{
+    margin: 10px;
+}
+
+/* First Row */
+
+.fam-mem .members-content .first-row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    font-family: 'Ubuntu';
+}
+
+.fam-mem .members-content .first-row .box{
+    width: calc(50% - 20px);
+    cursor: pointer;
+    border-style: solid;
+    border-color: #EBC7E8;
+    border-radius: 5px;
+    background-color: #BFACE0;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease;
+}
+
+.fam-mem .members-content .first-row .box:hover{
+    transform: scale(1.05);
+    color: #EBC7E8;
+    border-style: solid;
+    border-color: #645CAA;
+    border-radius: 5px;
+    background-color: #A084CA;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Second Row */
+
+.fam-mem .members-content .second-row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    font-family: 'Ubuntu';
+}
+
+.fam-mem .members-content .second-row .box{
+    width: calc(50% - 20px);
+    cursor: pointer;
+    border-style: solid;
+    border-color: #EBC7E8;
+    border-radius: 5px;
+    background-color: #BFACE0;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease;
+}
+
+.fam-mem .members-content .second-row .box:hover{
+    transform: scale(1.05);
+    color: #EBC7E8;
+    border-style: solid;
+    border-color: #645CAA;
+    border-radius: 5px;
+    background-color: #A084CA;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Third Row */
+
+.fam-mem .members-content .third-row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    font-family: 'Ubuntu';
+}
+
+.fam-mem .members-content .third-row .box{
+    width: calc(50% - 20px);
+    cursor: pointer;
+    border-style: solid;
+    border-color: #EBC7E8;
+    border-radius: 5px;
+    background-color: #BFACE0;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease;
+}
+
+.fam-mem .members-content .third-row .box:hover{
+    transform: scale(1.05);
+    color: #EBC7E8;
+    border-style: solid;
+    border-color: #645CAA;
+    border-radius: 5px;
+    background-color: #A084CA;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Title in Box */
+
+.fam-mem .members-content .title{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px;
+}
+
+/* Family Picture Bottom */
+
+.family-pic{
+    text-align: center;
+    padding: 30px;
+}
+
+.family-pic img{
+    border-radius: 12px;
+    width: 800px;
+    height: 600px;
+    cursor: pointer;
+    filter: grayscale(1);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease;
+}
+
+.family-pic img:hover{
+    filter: grayscale(0);
+    transform: scale(1.05);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Footer */
+
+footer{
+    background: #444;
+    padding: 20px 23px;
+    color: #fff;
+}
+
+footer span a{
+    color: crimson;
+}

@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.max-width{
+    max-width: 1300px;
+    padding: 0px 50px;
+    margin: auto;
+}
+
+/* navbar style */
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 20px 0px;
+    background-color: #DDC0B4;
+    font-family: 'Ubuntu', sans-serif;
+    z-index: 999;
+}
+
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.navbar .logo a span{
+    color: #C09175;
+}
+
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.navbar .menu li a:hover{
+    color: #C09175;
+}
+
+section{
+    padding: 100px;
+}
+
+/* Biodata Style */
+
+.bio{
+    color: #fff;
+    background-color: #C09175;
+}
+
+.bio .title{
+    font-family: 'Ubuntu';
+    text-align: center;
+    padding: 50px;
+    margin: auto;
+}
+
+.bio .title h4{
+    font-size: 40px;
+}
+
+.bio .title p{
+    font-size: 50px;
+}
+
+.bio .bio-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bio .bio-content .box{
+    width: calc(33% - 20px);
+    text-align: center;
+    cursor: pointer;
+}
+
+.bio .bio-content .box img{
+    filter: grayscale(1);
+    border-radius: 6px;
+    height: 350px;
+    width: 300px;
+    transition: all 0.5s ease;
+}
+
+.bio .bio-content .box img:hover{
+    filter: grayscale(0);
+    transform: scale(1.05);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Table Style */
+
+.bio .bio-table{
+    padding: 50px;
+    font-family: 'Ubuntu';
+}
+
+table{
+    width: 100%;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+th, td{
+    padding: 5px;
+    font-size: 25px;
+}
+
+/* Footer */
+
+footer{
+    background: #444;
+    padding: 20px 23px;
+    color: #fff;
+}
+
+footer span a{
+    color: crimson;
+}

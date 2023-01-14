@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.max-width{
+    max-width: 1300px;
+    padding: 0px 50px;
+    margin: auto;
+}
+
+body{
+    background: rgb(141,48,48);
+    background: linear-gradient(45deg, rgba(141,48,48,1) 0%, rgba(255,148,148,1) 60%, rgba(255,189,189,1) 100%);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* navbar style */
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 20px 0px;
+    background-color: #FF9494;
+    font-family: 'Ubuntu', sans-serif;
+    z-index: 999;
+}
+
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.navbar .logo a span{
+    color: #FFD1D1;
+}
+
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.navbar .menu li a:hover{
+    color: #FFD1D1;
+}
+
+section{
+    padding: 80px;
+}
+
+/* Travel Style */
+
+.travel{
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px; 
+}
+
+.travel .travel-content .title{
+    padding-top: 80px;
+    text-align: center;
+}
+
+.travel .travel-content .title p{
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.travel .travel-content .pic{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.travel .travel-content .box{
+    width: calc(33% - 20px);
+    text-align: center;
+    cursor: pointer;
+}
+
+.travel .travel-content .pic .pic-1 img{
+    width: 300px;
+    height: 400px;
+}
+
+.travel .travel-content .pic .pic-2 img{
+    width: 300px;
+    height: 400px;
+}
+
+.travel .travel-content .pic .vid video{
+    width: 250px;
+}
+
+.travel .travel-content .box img{
+    filter: grayscale(1);
+    border-radius: 12px;
+    transition: all 0.5s ease;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.travel .travel-content .box img:hover{
+    filter: grayscale(0);
+    transform: scale(1.05);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.travel .travel-content .box video{
+    filter: grayscale(1);
+    border-radius: 12px;
+    transition: all 0.5s ease;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.travel .travel-content .box video:hover{
+    filter: grayscale(0);
+    transform: scale(1.05);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Cafe Hopping */
+
+.cafe{
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px; 
+}
+
+.cafe .cafe-content .title{
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.cafe .cafe-content .title p{
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.cafe .cafe-content .pic-up, .cafe .cafe-content .pic-down{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.cafe .cafe-content .pic-up .box{
+    width: calc(25% - 20px);
+    text-align: center;
+    cursor: pointer;
+}
+
+.cafe .cafe-content .pic-down .box{
+    width: calc(33% - 20px);
+    text-align: center;
+    cursor: pointer;
+}
+
+.cafe .cafe-content .pic-up .pic-1 img{
+    width: 250px;
+    height: 350px;
+}
+
+.cafe .cafe-content .pic-up .pic-2 img{
+    width: 250px;
+    height: 350px;
+}
+
+.cafe .cafe-content .pic-up .pic-3 img{
+    width: 250px;
+    height: 350px;
+}
+
+.cafe .cafe-content .pic-up .pic-4 img{
+    width: 250px;
+    height: 350px;
+}
+
+.cafe .cafe-content .pic-down .pic-1 img{
+    width: 300px;
+    height: 400px;
+}
+
+.cafe .cafe-content .pic-down .pic-2 img{
+    width: 300px;
+    height: 400px;
+}
+
+.cafe .cafe-content .pic-down .pic-3 img{
+    width: 300px;
+    height: 400px;
+}
+
+.cafe .cafe-content .pic-up img, .cafe .cafe-content .pic-down img{
+    filter: grayscale(1);
+    border-radius: 12px;
+    transition: all 0.5s ease;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.cafe .cafe-content .pic-up img:hover, .cafe .cafe-content .pic-down img:hover{
+    filter: grayscale(0);
+    transform: scale(1.05);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Baking */
+
+.bake{
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px; 
+}
+
+.bake .bake-content .title{
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.bake .bake-content .title p{
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.bake .bake-content .pic{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.bake .bake-content .pic .box{
+    width: calc(50% - 20px);
+    text-align: center;
+    cursor: pointer;
+}
+
+.bake .bake-content .pic .pic1 img{
+    width: 300px;
+    height: 400px;
+}
+
+.bake .bake-content .pic .pic2 img{
+    width: 300px;
+    height: 400px;
+}
+
+.bake .bake-content .pic img{
+    filter: grayscale(1);
+    border-radius: 12px;
+    transition: all 0.5s ease;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.bake .bake-content .pic img:hover{
+    filter: grayscale(0);
+    transform: scale(1.05);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Footer */
+
+footer{
+    background: #444;
+    padding: 20px 23px;
+    color: #fff;
+}
+
+footer span a{
+    color: crimson;
+}
